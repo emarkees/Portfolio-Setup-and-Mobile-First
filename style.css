@@ -12,7 +12,7 @@
     height: 700px;
     left: -1px;
     right: 0;
-    top: 0px;
+    top: 0;
     background: #fff;
     border-radius: 0 0 0 60px;
   }
@@ -29,8 +29,8 @@
     position: absolute;
     width: 375px;
     height: 92px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
   }
 
   #Bars-Status-Bars-Light {
@@ -38,16 +38,16 @@
     width: 375px;
     height: 44px;
     left: calc(50% - 375px / 2);
-    top: 0px;
+    top: 0;
   }
 
   #Toolbar-Dark-Compact {
     position: absolute;
     height: 48px;
     width: 370px;
-    left: 0px;
+    left: 0;
     top: 44px;
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   .Normal-Button-Tertiary-Enabled {
@@ -71,7 +71,7 @@
     order: 0;
     flex-grow: 0;
     position: absolute;
-    right: 0px;
+    right: 0;
     left: -10px;
     top: 28px;
     font-family: "Poppins";
@@ -151,10 +151,10 @@
   .Container {
     position: absolute;
     visibility: hidden;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     background: linear-gradient(180deg, rgba(24, 30, 37, 0.64) 0%, rgba(24, 30, 37, 0.08) 84%, rgba(24, 30, 37, 0.02) 92%, rgba(24, 30, 37, 0) 100%);
   }
 
@@ -170,7 +170,7 @@
     position: absolute;
     width: 54px;
     height: 16px;
-    left: 0px;
+    left: 0;
     top: calc(50% - 16px / 2 + 0.5px);
     font-family: 'Roboto';
     font-style: normal;
@@ -187,7 +187,7 @@
     width: 66.66px;
     height: 11.34px;
     left: 293.67px;
-    top: 0px;  
+    top: 0;  
   }
 
   .Cellular {
@@ -318,8 +318,8 @@
     padding: 95px 24px;
     width: 375px;
     height: 604px;
-    left:0px;
-    top: px;
+    left:0;
+    top: 0;
   }
 
   .primaryText {
@@ -356,14 +356,14 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 16px;
     width: 117px;
     height: 24px;
     flex: none;
     order: 2;
     flex-grow: 0;
-    padding: 9px 0px;
+    padding: 9px 0;
   }
 
   .socialText {
@@ -408,7 +408,7 @@
     width: 20px;
     left: 24px;
     top: 397px;
-    border-radius: 0px;
+    border-radius: 0;
     list-style: none;   
   }
 
@@ -444,7 +444,7 @@
     width: 14.166671752929688px;
     left: 170px;
     top: 397px;
-    border-radius: 0px;
+    border-radius: 0;
     
   }
 

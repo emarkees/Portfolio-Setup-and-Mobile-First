@@ -1,10 +1,10 @@
 @media only screen and (min-width: 300px) {
   body {
-   position: absolute;
-   background: #e5e5e5;
-   width: 370px;
-   height: 800px;
- }
+    position: absolute;
+    background: #e5e5e5;
+    width: 370px;
+    height: 800px;
+  }
 
  #header-background-mobile {
     position: absolute;
@@ -567,9 +567,9 @@
   }
   
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
-      display: none;
-      text-decoration: none;
-      padding: 30px 2px;
+    display: none;
+    text-decoration: none;
+    padding: 30px 2px;
   }
   
   .Normal-Button-Tertiary-Enabled a:hover {
@@ -588,8 +588,7 @@
     text-decoration: none;
   }
   
-  .Normal-Button-Tertiary-Enabled a{
-    background: #000;
+  .Normal-Button-Tertiary-Enabled a {
     text-decoration: none;
-    }
   }
+}

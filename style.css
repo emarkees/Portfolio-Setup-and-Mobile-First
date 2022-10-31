@@ -1,12 +1,12 @@
 @media only screen and (min-width: 300px) {
   body {
    position: absolute;
-   background: #E5E5E5;
+   background: #e5e5e5;
    width: 370px;
    height: 800px;
  }
 
-#header-background-mobile {
+ #header-background-mobile {
     position: absolute;
     width: 370px;
     height: 700px;
@@ -14,8 +14,8 @@
     right: 0px;
    top: 0px;
    background: #fff;
-   border-radius: 0px 0px 0px 60px;
-   }
+   border-radius:0px 0px 0px 60px;
+ }
   
   .header-Shapes {
     position: absolute;

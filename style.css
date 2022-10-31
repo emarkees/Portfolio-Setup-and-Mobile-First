@@ -14,10 +14,10 @@
     right: 0;
     top: 0px;
     background: #fff;
-    border-radius:0px 0px 0px 60px;
- }
+    border-radius: 0 0 0 60px;
+  }
 
- .header-Shapes {
+  .header-Shapes {
     position: absolute;
     width: 462px;
     height: 570.15px;

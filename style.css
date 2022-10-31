@@ -6,7 +6,7 @@
     height: 800px;
   }
 
- #header-background-mobile {
+  #header-background-mobile {
     position: absolute;
     width: 370px;
     height: 700px;
@@ -16,15 +16,15 @@
    background: #fff;
    border-radius:0px 0px 0px 60px;
  }
-  
-  .header-Shapes {
+
+ .header-Shapes {
     position: absolute;
     width: 462px;
     height: 570.15px;
     left: -3px;
     top: 104px;
   }
-  
+
   #App-Bar-Compact-Dark {
     position: absolute;
     width: 375px;
@@ -32,7 +32,7 @@
     left: 0px;
     top: 0px;
   }
-  
+
   #Bars-Status-Bars-Light {
     position: absolute;
     width: 375px;
@@ -40,7 +40,7 @@
     left: calc(50% - 375px / 2);
     top: 0px;
   }
-  
+
   #Toolbar-Dark-Compact {
     position: absolute;
     height: 48px;
@@ -49,7 +49,7 @@
     top: 44px;
     border-radius: 0px;
   }
-  
+
   .Normal-Button-Tertiary-Enabled {
     display: flex;
     flex-direction: row;
@@ -63,7 +63,7 @@
     border-radius: 8px;
     justify-items: center;
   }
-  
+
   #icons-icons-menu {
     width: 100.5px;
     height: 100px;
@@ -77,7 +77,7 @@
     font-family: "Poppins";
     font-size: 12px;
   }
-  
+
   .Union {
     position: absolute;
     width: 45px;
@@ -88,7 +88,7 @@
     justify-items: center;
     text-decoration: none;
   }
-  
+
   .Vector-2 {
     position: absolute;
     left: 16.67%;
@@ -98,7 +98,7 @@
     border-radius: 0.1rem;
     border: 2px solid #acb7c3;
   }
-  
+
   .Vector-1 {
     position: absolute;
     left: 16.67%;
@@ -108,7 +108,7 @@
     border-radius: 0.1rem;
     border: 2px solid #acb7c3;
   }
-  
+
   .Vector {
     position: absolute;
     left: 16.67%;
@@ -118,7 +118,7 @@
     border-radius: 0.1rem;
     border: 2px solid #acb7c3;
   }
-  
+
   .logoPlaceholder {
     display: flex;
     flex-direction: row;
@@ -130,7 +130,7 @@
     left: 12px;
     top: calc(50% - 40px / 2);
   }
-  
+
   .myLogo {
     width: 76px;
     height: 20px;
@@ -147,7 +147,7 @@
     order: 0;
     flex-grow: 0;
   }
-  
+
   .Container {
     position: absolute;
     visibility: hidden;
@@ -155,12 +155,9 @@
     right: 0px;
     top: 0px;
     bottom: 0px;
-  
-    /* Overlay / Gradient ↓ */
-  
     background: linear-gradient(180deg, rgba(24, 30, 37, 0.64) 0%, rgba(24, 30, 37, 0.08) 84%, rgba(24, 30, 37, 0.02) 92%, rgba(24, 30, 37, 0) 100%);
   }
-  
+
   #timeStyle {
     position: absolute;
     width: 54px;
@@ -168,7 +165,7 @@
     left: 32px;
     top: 14px;
   }
-  
+
   .Time-bar {
     position: absolute;
     width: 54px;
@@ -184,7 +181,7 @@
     letter-spacing: -0.28px;
     color: #000;
   }
-  
+
   .Group3 {
     position: absolute;
     width: 66.66px;
@@ -192,6 +189,7 @@
     left: 293.67px;
     top: 0px;  
   }
+
   .Cellular {
     position: absolute;
     width: 17px;
@@ -199,7 +197,7 @@
     right: 64.33px;
     top: 17.67px;
   }
-  
+
   .Cellular_Connection-path {
     position: absolute;
     width: 3px;
@@ -209,7 +207,7 @@
     border-radius: 10px;
     background: #000;
   }
-  
+
   .Cellular_Connection-path-1 {
     position: absolute;
     width: 3px;
@@ -219,7 +217,7 @@
     border-radius: 10px;
     background: #000;
   }
-  
+
   .Cellular_Connection-path-2 {
     position: absolute;
     width: 3px;
@@ -229,7 +227,7 @@
     border-radius: 10px;
     background: #000;
   }
-  
+
   .Cellular_Connection-path-3 {
     position: absolute;
     width: 3px;
@@ -239,7 +237,7 @@
     border-radius: 10px;
     background: #000
   }
-  
+
   .Wifi-path-2 {
     position: absolute;
     width: 15.27px;
@@ -248,9 +246,8 @@
     top: 15.78px;
     background: #000;
   }
-  
+
   .Wifi-path-1 {
-    /* Wifi-path */
     position: absolute;
     width: 9.95px;
     height: 3.60px;
@@ -258,7 +255,7 @@
     top: 20.45px;
     background: #000;
   }
-  
+
   .Wifi-path {
     position: absolute;
     width: 4.63px;
@@ -268,7 +265,7 @@
     background: #000;
     border-radius: 50%;
   }
-  
+
   .Battery {
     position: absolute;
     width: 24.33px;
@@ -277,18 +274,17 @@
     top: 17.33px;
   
   }
-  
+
   .Capacity {
     position: absolute;
     width: 18px;
     height: 7.33px;
     right: 19px;
-    top: 19.33px;
-    
+    top: 19.33px;  
     background: #000000;
     border-radius: 1.33333px;
   }
-  
+
   .Cap {
     position: absolute;
     width: 1.33px;
@@ -299,7 +295,7 @@
     mix-blend-mode: normal;
     opacity: 0.4;
   }
-  
+
   .Border {
     box-sizing: border-box;
     position: absolute;
@@ -312,7 +308,7 @@
     border: 1px solid #000000;
     border-radius: 2.66667px;
   }
-  
+
   .headline {
     display: flex;
     flex-direction: column;
@@ -325,7 +321,7 @@
     left:0px;
     top: px;
   }
-  
+
   .primaryText {
     width: 250px;
     height: 113px;
@@ -341,7 +337,7 @@
     order: 0;
     flex-grow: 0;
   }
-  
+
   .primaryText-md {
     width: 270px;
     height: 140px;
@@ -355,7 +351,7 @@
     order: 1;
     flex-grow: 0;
   }
-  
+
   .Social-media {
     display: flex;
     flex-direction: column;
@@ -369,7 +365,7 @@
     flex-grow: 0;
     padding: 9px 0px;
   }
-  
+
   .socialText {
     display: flex;
     flex-direction: row;
@@ -381,7 +377,7 @@
     order: 0;
     flex-grow: 0;
   }
-  
+
   .socioText {
     width: 117px;
     height: 24px;
@@ -395,7 +391,7 @@
     order: 0;
     flex-grow: 0;
   }
-  
+
   .social-media-icon {
     width: 190.17px;
     height: 20px;
@@ -405,7 +401,7 @@
     list-style: none;
     list-style-image: none;
   }
-  
+
   .Twitter {
     position: absolute;
     height: 20px;
@@ -413,10 +409,9 @@
     left: 24px;
     top: 397px;
     border-radius: 0px;
-    list-style: none;
-     
+    list-style: none;   
   }
-  
+
   .gitHub {
     position: absolute;
     left: 32%;
@@ -425,7 +420,7 @@
     bottom: 100.87%;
     top: 397px
   }
-  
+
   .Linkedin-Icon {
     position: absolute;
     width: 20px;
@@ -433,7 +428,7 @@
     left: 63px;
     top: 397px;
   }
-  
+
   .McList {
     position: absolute;
     left: 100px;
@@ -442,7 +437,7 @@
     bottom: 19.21%;
     top: 400px
   }
-  
+
   .handwe {
     position: absolute;
     height: 20px;
@@ -452,21 +447,21 @@
     border-radius: 0px;
     
   }
-  
+
   .Rectangle-4 {
     position: absolute;  
     left: 330px;
     height:35px;
     top: 30px;
   }
-  
+
   .Ellipse-3 {
     position: absolute;
     top: 47.18px;
     left: 347.0px;
     height: 50px;
   }
-  
+
   .Ellipse-15 {
     box-sizing: border-box;
     position: absolute;
@@ -475,7 +470,7 @@
     left: 53px;
     top: 535px;
   }
-  
+
   .Ellipse-14 {
     box-sizing: border-box;
     position: absolute;
@@ -484,7 +479,7 @@
     left: 245px;
     top: 180px;
   }
-  
+
   .Ellipse-8 {
     box-sizing: border-box;
     position: absolute;
@@ -493,12 +488,13 @@
     left: 214px;
     top: 1px;
   }
+
   .Ellipse-11 {
     position: absolute;
     width: 25.5px;
     top: 30px;
   }
-  
+
   .Rectangle-6 {
     position: absolute;
     width: 45px;
@@ -508,7 +504,7 @@
     background: #ebebff;
     transform: rotate(-46.14deg);
   }
-  
+
   .Ellipse-12 {
     position: absolute;
     width: 24.14px;
@@ -517,7 +513,7 @@
     top: 380.69px;
     transform: rotate(5.08deg);
   }
-  
+
   .Ellipse-13 {
     position: absolute;
     width: 30.1px;
@@ -525,7 +521,7 @@
     top: 390.20px;
     transform: rotate(-3.41deg);
   }
-  
+
   .Ellipse-4 {
     position: absolute;
     width: 20px;
@@ -550,10 +546,7 @@
     height: 12.18px;
     left: 191.82px;
     top: 512px;
-    
-    /* Primary/B50 */
-    
-    background: #EBEBFF;
+    background: #ebebff;
     transform: rotate(23.34deg);
   }
 

@@ -13,8 +13,8 @@
     left: -1px;
     right: 0;
     top: 0;
+    border-radius: 0px 0px 0px 60px;
     background: #fff;
-    border-radius: 0 0 0 60px;
   }
 
   .header-Shapes {
@@ -62,20 +62,22 @@
     top: calc(50% - 40px / 2);
     border-radius: 8px;
     justify-items: center;
+    background: #000;
   }
 
   #icons-icons-menu {
     width: 100.5px;
-    height: 100px;
+    height: 10px;
     flex: none;
     order: 0;
     flex-grow: 0;
     position: absolute;
     right: 0;
-    left: -10px;
-    top: 28px;
-    font-family: "Poppins";
+    left: -20px;
+    top: 35px;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    text-decoration: none;
   }
 
   .Union {
@@ -134,7 +136,7 @@
   .myLogo {
     width: 76px;
     height: 20px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -325,7 +327,7 @@
   .primaryText {
     width: 250px;
     height: 113px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 650;
     font-size: 22px;
@@ -341,7 +343,7 @@
   .primaryText-md {
     width: 270px;
     height: 140px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 13px;
@@ -352,36 +354,36 @@
     flex-grow: 0;
   }
 
-  .Social-media {
+  .Social-media  {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    padding: 0px;
     gap: 16px;
     width: 117px;
     height: 24px;
     flex: none;
     order: 2;
     flex-grow: 0;
-    padding: 9px 0;
+    padding: 9px 0px;   
   }
 
-  .socialText {
+  .media-Container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 8px;
-    width: 117px;
-    height: 20px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+      width: 117px;
+      height: 20px;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
   }
 
   .socioText {
     width: 117px;
     height: 24px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -390,6 +392,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+   
   }
 
   .social-media-icon {
@@ -397,9 +400,9 @@
     height: 20px;
     flex: none;
     order: 3;
-    flex-grow: 0;
+    flex-grow: 0;   
+    Top: 470px;
     list-style: none;
-    list-style-image: none;
   }
 
   .Twitter {
@@ -558,30 +561,8 @@
     top: 50.81px;
     transform: rotate(52.97deg);
   }
-
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
     display: none;
-    text-decoration: none;
-    padding: 30px 2px;
   }
-
-  .Normal-Button-Tertiary-Enabled a:hover {
-    border-radius: 12px;
-    color: blue;
-  }
-
-  .Normal-Button-Tertiary-Enabled a.icons-icons-menu {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .Normal-Button-Tertiary-Enabled ul.icons-icons-menuli {
-    text-decoration: none;
-  }
-
-  .Normal-Button-Tertiary-Enabled a :hover {
-    text-decoration: none;
-  }
+  
 }

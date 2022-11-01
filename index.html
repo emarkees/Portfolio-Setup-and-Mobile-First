@@ -43,19 +43,17 @@
               <a href="#"><img src="./images/My Logo.png" class="myLogo" alt="Logo"></a>
             </div>
             <div class="Normal-Button-Tertiary-Enabled">
-                <div id="icons-icons-menu">
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#About">About</a></li>
-                  <li><a href="#Contact">Contact</a></li>
-                </div>
-                  <a href="javascript:void(0);" class="Union" onclick="myFunction()" >
-                    <img src="./images/Vector2.png" class="Vector-2" alt="">
-                    <img src="./images/Vector2.png" class="Vector-1" alt="">
-                    <img src="./images/Vector2.png" class="Vector" alt="">
-                  </a>
-                </div>
+              <div id="icons-icons-menu">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </div>
+              <a href="javascript:void(0);" class="Union" onclick="menuBar()" >
+              <img src="./images/Vector2.png" class="Vector-2" alt="">
+              <img src="./images/Vector2.png" class="Vector-1" alt="">
+              <img src="./images/Vector2.png" class="Vector" alt="">
+              </a>
             </div>
-              
           </div>
         </nav>
       </header>
@@ -104,7 +102,7 @@
         </section>
       </main>
       <script>
-        function myFunction() {
+        function menuBar() {
           var x = document.getElementById("icons-icons-menu");
           if (x.style.display === "block") {
             x.style.display = "none";

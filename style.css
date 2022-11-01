@@ -280,7 +280,7 @@
     width: 18px;
     height: 7.33px;
     right: 19px;
-    top: 19.20px;  
+    top: 19.20px;
     background: #000;
     border-radius: 1.33333px;
   }
@@ -352,7 +352,7 @@
     flex-grow: 0;
   }
 
-  .Social-media  {
+  .Social-media {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -389,7 +389,6 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-   
   }
   
   .social-media-icon {
@@ -397,7 +396,7 @@
     height: 20px;
     flex: none;
     order: 3;
-    flex-grow: 0;   
+    flex-grow: 0;
     top: 470px;
     list-style: none;
   }
@@ -409,7 +408,7 @@
     left: 24px;
     top: 397px;
     border-radius: 0;
-    list-style: none;   
+    list-style: none;
   }
   
   .gitHub {
@@ -418,7 +417,7 @@
     right: 60.07%;
     top: 77.81%;
     bottom: 100.87%;
-    top: 397px
+    top: 397px;
   }
 
   .Linkedin-Icon {
@@ -435,7 +434,6 @@
     right: 67.2%;
     top: 78%;
     bottom: 19.21%;
-    top: 400px
   }
 
   .handwe {
@@ -445,20 +443,19 @@
     left: 170px;
     top: 397px;
     border-radius: 0;
-    
   }
   
   .Rectangle-4 {
-    position: absolute;  
+    position: absolute;
     left: 330px;
-    height:35px;
+    height: 35px;
     top: 30px;
   }
   
   .Ellipse-3 {
     position: absolute;
     top: 47.18px;
-    left: 347.0px;
+    left: 347px;
     height: 50px;
   }
 
@@ -518,7 +515,7 @@
     position: absolute;
     width: 30.1px;
     left: 332.18px;
-    top: 390.20px;
+    top: 390.2px;
     transform: rotate(-3.41deg);
   }
 
@@ -561,5 +558,4 @@
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
     display: none;
   }
-  
 }

@@ -410,7 +410,7 @@
     border-radius: 0;
     list-style: none;
   }
- 
+
   .gitHub {
     position: absolute;
     left: 32%;
@@ -558,4 +558,5 @@
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
     display: none;
   }
+
 }

@@ -556,6 +556,7 @@
   }
 
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
-    dislay: none;
+    display: none;
   }
+
 }

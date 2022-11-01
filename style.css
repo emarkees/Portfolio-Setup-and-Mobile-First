@@ -555,6 +555,6 @@
     transform: rotate(52.97deg);
   }
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
-    display: none;
+    displa: none;
   }
 }

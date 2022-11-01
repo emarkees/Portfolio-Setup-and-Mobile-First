@@ -390,7 +390,7 @@
     order: 0;
     flex-grow: 0;
   }
-  
+
   .social-media-icon {
     width: 190.17px;
     height: 20px;
@@ -410,7 +410,7 @@
     border-radius: 0;
     list-style: none;
   }
-  
+ 
   .gitHub {
     position: absolute;
     left: 32%;
@@ -443,14 +443,14 @@
     top: 397px;
     border-radius: 0;
   }
-  
+
   .Rectangle-4 {
     position: absolute;
     left: 330px;
     height: 35px;
     top: 30px;
   }
-  
+
   .Ellipse-3 {
     position: absolute;
     top: 47.18px;
@@ -554,7 +554,8 @@
     top: 50.81px;
     transform: rotate(52.97deg);
   }
+
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
-    displa: none;
+    display: none;
   }
 }

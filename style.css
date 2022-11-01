@@ -173,7 +173,7 @@
     height: 16px;
     left: 0;
     top: calc(50% - 16px / 2 + 0.5px);
-    font-family: 'Roboto' sans-serif;
+    font-family:'Segoe UI';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -556,5 +556,7 @@
   }
 
   .Normal-Button-Tertiary-Enabled #icons-icons-menu {
-    dislay: none;
-  }}
+    display: none;
+  }
+
+}

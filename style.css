@@ -318,7 +318,7 @@ body {
 .primaryText {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: bold;
   font-weight: 700;
   font-size: 30px;
@@ -334,7 +334,7 @@ body {
 .primaryText-md {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

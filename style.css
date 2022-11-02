@@ -1,9 +1,11 @@
-body {
-  position: absolute;
-  background: #e5e5e5;
-  width: 370px;
-  height: 850px;
-  margin: 0;
+.Mobile-main {
+  position: relative;
+  width: 375px;
+  height: 5410px;
+  background: #565697;
+  align-content: center;
+  left: 90px;
+  right: -px;
 }
 
 main {

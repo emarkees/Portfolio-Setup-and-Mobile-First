@@ -1,6 +1,7 @@
 ## My Portfolio
 
-Hi 👋, I'm Adeyemi and this is my website built by me. It contains my various projects i have achieved during my career as a Software developer at Microverse.
+Hi 👋, I'm Adeyemi and this is my website built by me. It contains my various projects i have developed as  a student at Microverse.
+
 ## Built With
 
 Html & Css

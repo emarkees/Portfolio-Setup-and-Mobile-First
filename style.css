@@ -6,6 +6,11 @@ body {
   margin: 0;
 }
 
+main {
+  background-image: url(./images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+}
+
 #header-background-mobile {
   position: absolute;
   width: 375px;

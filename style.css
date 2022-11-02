@@ -318,7 +318,7 @@ body {
 .primaryText {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins' ;
+  font-family: 'Poppins';
   font-style: bold;
   font-weight: 700;
   font-size: 30px;
@@ -441,4 +441,4 @@ body {
 .Normal-Button-Tertiary-Enabled #myLink ul li {
   display: none;
   background: blue;
-} 
+}

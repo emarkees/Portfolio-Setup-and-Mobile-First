@@ -1,18 +1,18 @@
-@media only screen and (min-width: 300px) {
   body {
     position: absolute;
     background: #e5e5e5;
     width: 370px;
-    height: 800px;
+    height: 850px;
+    margin: 0;
   }
 
   #header-background-mobile {
     position: absolute;
-    width: 370px;
-    height: 700px;
-    left: -1px;
-    right: 0;
-    top: 0;
+    width: 375px;
+    height: 718px;
+    left: 0px;
+    right: 8px;
+    top: 1px;
     border-radius: 0 0 0 60px;
     background: #fff;
   }
@@ -20,8 +20,8 @@
   .header-Shapes {
     position: absolute;
     width: 462px;
-    height: 570.15px;
-    left: -3px;
+    height: 587.15px;
+    left: 0px;
     top: 104px;
   }
 
@@ -50,21 +50,23 @@
     border-radius: 0;
   }
 
-  .Normal-Button-Tertiary-Enabled {
+  .Normal-Button-Tertiary-Enabled  {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 8px;
     position: absolute;
-    width: 40px;
-    height: 20px;
+    width: 45px;
+    height: 400px;
     right: 4px;
     top: calc(50% - 40px / 2);
     border-radius: 8px;
     justify-items: center;
+    
+    list-style: none;
   }
 
-  #icons-icons-menu {
+  #myLink {
     width: 100.5px;
     height: 10px;
     flex: none;
@@ -72,11 +74,10 @@
     flex-grow: 0;
     position: absolute;
     right: 0;
-    left: -20px;
-    top: 35px;
+    left: -40px;
+    top: 25px;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
-    text-decoration: none;
   }
 
   .Union {
@@ -183,28 +184,12 @@
     color: #000;
   }
 
-  .Group3 {
-    position: absolute;
-    width: 66.66px;
-    height: 11.34px;
-    left: 293.67px;
-    top: 0;
-  }
-
-  .Cellular {
-    position: absolute;
-    width: 17px;
-    height: 10.67px;
-    right: 64.33px;
-    top: 17.67px;
-  }
-
   .Cellular_Connection-path {
     position: absolute;
     width: 3px;
     height: 4px;
-    right: 78.53px;
-    top: 24.3px;
+    right: 78px;
+    top: 24.33px;
     border-radius: 10px;
     background: #000;
   }
@@ -213,7 +198,7 @@
     position: absolute;
     width: 3px;
     height: 6px;
-    right: 73.6px;
+    right: 73.5px;
     top: 22.33px;
     border-radius: 10px;
     background: #000;
@@ -239,13 +224,21 @@
     background: #000;
   }
 
+  .Wifi {
+    position: absolute;
+    width: 15.27px;
+    height: 0px;
+    right: 44.03px;
+    top: 12.5px;
+  }
+
   .Wifi-path-2 {
     position: absolute;
     width: 15.27px;
     height: 3.6px;
     right: 44.03px;
     top: 15.78px;
-    background: #000;
+    background: rgb(207, 20, 20);
     border-radius: 10% / 2%;
   }
 
@@ -271,9 +264,9 @@
   .Battery {
     position: absolute;
     width: 24.33px;
-    height: 11.33px;
-    left: 336px;
-    top: 17.33px;
+    height: 1.33px;
+    left: 350.5px;
+    top: 0;
   }
 
   .Capacity {
@@ -303,10 +296,10 @@
     width: 22px;
     height: 11.33px;
     right: 17px;
-    top: 17.23px;
+    top: 17.33px;
     mix-blend-mode: normal;
     opacity: 0.35;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     border-radius: 2.66667px;
   }
 
@@ -320,33 +313,33 @@
     width: 375px;
     height: 604px;
     left: 0;
-    top: 0;
+    top: 3px;
   }
 
   .primaryText {
-    width: 250px;
-    height: 113px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 650;
-    font-size: 22px;
-    line-height: 40px;
+    width: 327px;
+    height: 150px;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
     display: flex;
     align-items: center;
-    color: #172b4d;
+    color: #172B4D;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .primaryText-md {
-    width: 270px;
-    height: 140px;
-    font-family: 'Poppins', sans-serif;
+    width: 327px;
+    height: 146px;
+    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 200;
-    font-size: 13px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #344563;
     flex: none;
     order: 1;
@@ -371,35 +364,37 @@
     flex-direction: row;
     align-items: center;
     gap: 8px;
-    width: 117px;
+    width: 125px;
     height: 20px;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
-  .socioText {
-    width: 117px;
+  .socioText p {
+    width: 125px;
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
     flex: none;
     order: 0;
+    margin-top: 50px;
     flex-grow: 0;
   }
 
-  .social-media-icon {
-    width: 190.17px;
+  .social-media-icon li {
+    width: 190px;
     height: 20px;
     flex: none;
     order: 3;
     flex-grow: 0;
-    top: 470px;
+    top: 4px;
     list-style: none;
+    margin-top: 11px;
   }
 
   .Twitter {
@@ -407,16 +402,15 @@
     height: 20px;
     width: 20px;
     left: 24px;
-    top: 397px;
     border-radius: 0;
-    list-style: none;
+    top: 451px;
   }
 
   .gitHub {
     position: absolute;
     left: 32%;
     right: 60.07%;
-    top: 77.81%;
+    top: 451px;
     bottom: 100.87%;
   }
 
@@ -425,138 +419,29 @@
     width: 20px;
     height: 20px;
     left: 63px;
-    top: 397px;
+    top: 451px;
   }
 
   .McList {
     position: absolute;
     left: 100px;
     right: 67.2%;
-    top: 78%;
+    top: 454px;
     bottom: 19.21%;
   }
 
   .handwe {
     position: absolute;
     height: 20px;
-    width: 14.166671752929688px;
+    width: 14.2px;
     left: 170px;
-    top: 397px;
+    top: 451px;
     border-radius: 0;
   }
 
-  .Rectangle-4 {
-    position: absolute;
-    left: 330px;
-    height: 35px;
-    top: 30px;
-  }
-
-  .Ellipse-3 {
-    position: absolute;
-    top: 47.18px;
-    left: 347px;
-    height: 50px;
-  }
-
-  .Ellipse-15 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 53px;
-    top: 535px;
-  }
-
-  .Ellipse-14 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 11px;
-    height: 11px;
-    left: 245px;
-    top: 180px;
-  }
-
-  .Ellipse-8 {
-    box-sizing: border-box;
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: 214px;
-    top: 1px;
-  }
-
-  .Ellipse-11 {
-    position: absolute;
-    width: 25.5px;
-    top: 30px;
-  }
-
-  .Rectangle-6 {
-    position: absolute;
-    width: 45px;
-    height: 9.3px;
-    left: -30px;
-    top: 25.49px;
-    background: #ebebff;
-    transform: rotate(-46.14deg);
-  }
-
-  .Ellipse-12 {
-    position: absolute;
-    width: 24.14px;
-    height: 12.07px;
-    left: 341.76px;
-    top: 380.69px;
-    transform: rotate(5.08deg);
-  }
-
-  .Ellipse-13 {
-    position: absolute;
-    width: 30.1px;
-    left: 332.18px;
-    top: 390.2px;
-    transform: rotate(-3.41deg);
-  }
-
-  .Ellipse-4 {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 237px;
-    top: 500.1px;
-  }
-
-  .Rectangle-7 {
-    position: absolute;
-    width: 26.46px;
-    height: 4.73px;
-    left: 99.18px;
-    top: 50.59px;
-    background: #6070ff;
-    transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-  }
-
-  .Rectangle-5 {
-    position: absolute;
-    width: 68.06px;
-    height: 12.18px;
-    left: 191.82px;
-    top: 512px;
-    background: #ebebff;
-    transform: rotate(23.34deg);
-  }
-
-  .Ellipse-5 {
-    position: absolute;
-    width: 11px;
-    height: 10px;
-    left: 100.98px;
-    top: 50.81px;
-    transform: rotate(52.97deg);
-  }
-
-  .Normal-Button-Tertiary-Enabled #icons-icons-menu {
+  .Normal-Button-Tertiary-Enabled #myLink  ul li {
     display: none;
+    background: blue;  
   }
-}
+
+  

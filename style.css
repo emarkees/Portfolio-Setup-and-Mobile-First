@@ -10,7 +10,7 @@ body {
   position: absolute;
   width: 375px;
   height: 718px;
-  left: 0px;
+  left: 0;
   right: 8px;
   top: 1px;
   border-radius: 0 0 0 60px;
@@ -21,7 +21,7 @@ body {
   position: absolute;
   width: 462px;
   height: 587.15px;
-  left: 0px;
+  left: 0;
   top: 104px;
 }
 
@@ -62,7 +62,6 @@ body {
   top: calc(50% - 40px / 2);
   border-radius: 8px;
   justify-items: center;
-
   list-style: none;
 }
 
@@ -227,8 +226,8 @@ body {
 .Wifi {
   position: absolute;
   width: 15.27px;
-  height: 0px;
-  right: 44.03px;
+  height: 0;
+  right: 44.3px;
   top: 12.5px;
 }
 
@@ -299,7 +298,7 @@ body {
   top: 17.33px;
   mix-blend-mode: normal;
   opacity: 0.35;
-  border: 1px solid #000000;
+  border: 1px solid #000;
   border-radius: 2.66667px;
 }
 
@@ -326,7 +325,7 @@ body {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -442,4 +441,4 @@ body {
 .Normal-Button-Tertiary-Enabled #myLink ul li {
   display: none;
   background: blue;
-}
+} 

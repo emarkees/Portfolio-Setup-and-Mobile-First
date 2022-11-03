@@ -458,8 +458,8 @@ main {
   position: absolute;
   width: 400px;
   height: 2788px;
-  left: 0px;
-  top:800px;
+  left: 0;
+  top: 800px;
 }
 
 .cardWork {
@@ -473,7 +473,7 @@ main {
   align-self: cener;
   width: 327px;
   height: 552px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 0;
@@ -491,7 +491,7 @@ main {
 }
 
 #snapshot_folio :hover {
-  transform: scale(0.9)
+  transform: scale(0.9);
 }
 
 .leftBlock {
@@ -501,7 +501,7 @@ main {
   padding: 0;
   gap: 12px;
   width: 295px;
-  height: 288px;  
+  height: 288px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -523,7 +523,7 @@ main {
 .proTitle {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -557,7 +557,7 @@ main {
 p2 {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -579,7 +579,7 @@ p2 {
   flex-grow: 0;
 }
 
-.Role  {
+.Role {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -594,12 +594,12 @@ p2 {
 .Text p3 {
   width: 88px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -620,12 +620,12 @@ p2 {
 .Text3 {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -644,7 +644,7 @@ p2 {
 .pryText1 p3 {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -668,7 +668,24 @@ p2 {
   flex-grow: 0;
 }
 
-.texTag .Html {
+.Hml {
+  width: 29px;
+  height: 16px;  
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+.texTag .Hml {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -683,21 +700,20 @@ p2 {
   justify-content: center;
 }
 
-.Html {
+.Css {
   width: 29px;
-  height: 16px;  
-  font-family: 'Poppins';
+  height: 16px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: center;
   color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
-  justify-content: center;
 }
 
 .texTagcss .Css {
@@ -714,22 +730,6 @@ p2 {
   flex-grow: 0;
   justify-content: center;
   left: 10px;
-}
-
-.Css {
-  width: 29px;
-  height: 16px;
-  text-align: center;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .texTagJava {
@@ -750,7 +750,7 @@ p2 {
 .java {
   width: 70px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;

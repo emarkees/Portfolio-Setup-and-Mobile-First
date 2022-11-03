@@ -8,11 +8,6 @@
   background: #6060d8;
 }
 
-main {
-  background-image: url(./images/header-shapes\ mobile.png);
-  background-repeat: no-repeat;
-}
-
 #header-background-mobile {
   position: absolute;
   width: 375px;
@@ -30,6 +25,8 @@ main {
   height: 587.15px;
   left: 0;
   top: 104px;
+  background-image: url(./images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
 }
 
 #App-Bar-Compact-Dark {

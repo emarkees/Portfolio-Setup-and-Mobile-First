@@ -461,10 +461,9 @@ main {
   position: absolute;
   width: 375px;
   height: 2790px;
-  left: 0px;
+  left: 0;
   top: 718px;
   background: orange;
- 
 }
 
 .cardWork {
@@ -476,8 +475,8 @@ main {
   gap: 12px;
   width: 327px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 0;
@@ -530,12 +529,12 @@ main {
 .text_head {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins', San-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -605,12 +604,12 @@ main {
 .Role_txt {
   width: 90px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -619,7 +618,7 @@ main {
 .Counter2 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -641,12 +640,12 @@ main {
 .Year_txt {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -655,7 +654,7 @@ main {
 .pryText_body p {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -681,7 +680,7 @@ main {
   margin: 0;
 }
 
-.textTag_Hml  {
+.textTag_Hml {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -763,7 +762,7 @@ main {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -779,7 +778,7 @@ main {
   width: 327px;
   height: 596px;
   background: #FFF;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 1;
@@ -835,7 +834,7 @@ main {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -850,7 +849,7 @@ main {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -877,7 +876,7 @@ main {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -996,7 +995,7 @@ main {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1048,7 +1047,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1066,8 +1065,8 @@ ul {
   gap: 12px;
   width: 295px;
   height: 552px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 2;
@@ -1124,7 +1123,7 @@ ul {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1194,12 +1193,12 @@ ul {
 .Role_txt_3 {
   width: 90px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1208,7 +1207,7 @@ ul {
 .Counter2_3 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -1230,12 +1229,12 @@ ul {
 .Year_txt_3 {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1244,7 +1243,7 @@ ul {
 .pryText_body_3 p{
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1287,7 +1286,7 @@ ul {
 .Hml_3 p {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1316,7 +1315,7 @@ ul {
 .Css_3 p {
   width: 21px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1346,13 +1345,13 @@ ul {
 .java_3 p{
   width: 65px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1385,7 +1384,7 @@ ul {
 .click_bttn_3 .projbttn_3{
   width: 100px;
   height: 45px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1394,7 +1393,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1412,8 +1411,8 @@ ul {
   gap: 12px;
   width: 327px;
   height: 596px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #fff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
   order: 3;
@@ -1464,7 +1463,7 @@ ul {
 .text_head_4 {
   width: 290px;
   height: 80px;
-  font-family: 'Poppins', San-serif;
+  font-family: 'Poppins', Sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1540,7 +1539,7 @@ ul {
 .Role_txt_4 {
   width: 90px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1554,7 +1553,7 @@ ul {
 .Counter2_4 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -1576,7 +1575,7 @@ ul {
 .Year_txt_4 {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -1590,7 +1589,7 @@ ul {
 .pryText_body_4 p {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1633,7 +1632,7 @@ ul {
 .Hml_4 p {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1662,7 +1661,7 @@ ul {
 .Css_4 p {
   width: 21px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1692,13 +1691,13 @@ ul {
 .java_4 p {
   width: 65px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -1731,7 +1730,7 @@ ul {
   
   /* Primary/B400 */
   
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
@@ -1746,7 +1745,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   flex: none;
   order: 0;
   flex-grow: 0;

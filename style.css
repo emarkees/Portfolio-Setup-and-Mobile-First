@@ -481,7 +481,7 @@ main {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: -0px;
+  margin-top: 0;
 }
 
 #snap_portfolio {
@@ -504,7 +504,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -517,7 +517,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 80px;
@@ -544,7 +544,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -557,7 +557,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 16px;
   flex: none;
@@ -593,7 +593,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 88px;
   height: 32px;
   flex: none;
@@ -629,7 +629,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 29px;
   height: 32px;
   flex: none;
@@ -670,7 +670,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -697,7 +697,7 @@ main {
 .Hml p {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -726,7 +726,7 @@ main {
 .Css p {
   width: 21px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -756,7 +756,7 @@ main {
 .java p {
   width: 65px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -777,7 +777,7 @@ main {
   gap: 12px;
   width: 327px;
   height: 596px;
-  background: #FFF;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   flex: none;
@@ -804,7 +804,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 332px;
@@ -817,7 +817,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 124px;
@@ -829,7 +829,7 @@ main {
 .text_head_2 {
   width: 290px;
   height: 80px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -844,7 +844,7 @@ main {
 .text_head_text_2 {
   width: 150px;
   height: 90px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -859,7 +859,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -901,7 +901,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -910,7 +910,6 @@ main {
   flex-grow: 0;
   margin: 0;
   left: 0;
-
 }
 
 .textTag_Hml_2  {
@@ -930,7 +929,7 @@ main {
 .Hml_2 p {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -959,7 +958,7 @@ main {
 .Css_2 p {
   width: 21px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -989,7 +988,7 @@ main {
 .Java_2 p {
   width: 65px;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1006,11 +1005,9 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 5px;
-
 }
 
-
-#Action_bttn_2  {
+#Action_bttn_2 {
   width: 295px;
   height: 72px;
   flex: none;
@@ -1028,17 +1025,16 @@ ul {
   position: absolute;
   width: 128px;
   height: 48px;
-  left: 0px;
-  top: calc(50% - 48px/2);
+  left: 0;
+  top: calc(50% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
- 
 }
 
-.click_bttn_2  {
+.click_bttn_2 {
   width: 128px;
   height: 45px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -1054,7 +1050,6 @@ ul {
   text-decoration: none;
   border-radius: 8px;
   border: 1px solid #6070ff;
-
 }
 
 .cardWork_card_3 {
@@ -1085,14 +1080,14 @@ ul {
 }
 
 #snap_portfolio_3:hover {
-  transform: scale(0.9) ;
+  transform: scale(0.9);
 }
 
 .leftBlock_3 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -1105,7 +1100,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 80px;
@@ -1115,10 +1110,10 @@ ul {
   background: #000;
 }
 
-.text_head_3  {
+.text_head_3 {
   width: 295px;
   height: 36px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1133,7 +1128,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -1146,7 +1141,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 16px;
   flex: none;
@@ -1182,7 +1177,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 88px;
   height: 32px;
   flex: none;
@@ -1218,7 +1213,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 29px;
   height: 32px;
   flex: none;
@@ -1259,7 +1254,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -1269,7 +1264,7 @@ ul {
   margin: 0;
 }
 
-.textTag_Hml_3  {
+.textTag_Hml_3 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1342,7 +1337,7 @@ ul {
   flex-grow: 0;
 }
 
-.java_3 p{
+.java_3 p {
   width: 65px;
   height: 16px;
   font-family: 'Poppins', sans-serif;
@@ -1376,7 +1371,7 @@ ul {
   position: absolute;
   width: 120px;
   height: 48px;
-  left: 0px;
+  left: 0;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -1397,7 +1392,7 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .cardWork_4 {
@@ -1429,14 +1424,14 @@ ul {
 }
 
 #snap_portfolio_4:hover {
-  transform: scale(0.9) ;
+  transform: scale(0.9);
 }
 
 .leftBlock_4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 322px;
@@ -1449,7 +1444,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 295px;
   height: 122px;
@@ -1461,7 +1456,7 @@ ul {
 .text_head_4 {
   width: 290px;
   height: 80px;
-  font-family: 'Poppins', Sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1476,7 +1471,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -1490,7 +1485,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 55px;
   height: 16px;
   flex: none;
@@ -1526,7 +1521,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 88px;
   height: 32px;
   flex: none;
@@ -1562,7 +1557,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0;
   width: 29px;
   height: 32px;
   flex: none;
@@ -1603,7 +1598,7 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -1630,7 +1625,7 @@ ul {
 .Hml_4 p {
   width: 29px;
   height: 16px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1719,7 +1714,7 @@ ul {
   position: absolute;
   width: 124px;
   height: 48px;
-  left: 0px;
+  left: 0;
   top: calc(22% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;

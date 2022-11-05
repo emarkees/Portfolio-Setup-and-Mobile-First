@@ -1240,7 +1240,7 @@ ul {
   flex-grow: 0;
 }
 
-.pryText_body_3 p{
+.pryText_body_3 p {
   width: 295px;
   height: 76px;
   font-family: 'Poppins', sans-serif;
@@ -1381,7 +1381,7 @@ ul {
   border-radius: 8px;
 }
 
-.click_bttn_3 .projbttn_3{
+.click_bttn_3 .projbttn_3 {
   width: 100px;
   height: 45px;
   font-family: 'Poppins', sans-serif;
@@ -1399,8 +1399,6 @@ ul {
   flex-grow: 0;
   text-decoration: none; 
 }
-
-/* The forth card */
 
 .cardWork_4 {
   box-sizing: border-box;
@@ -1615,7 +1613,7 @@ ul {
   margin: 0;
 }
 
-.textTag_Hml_4  {
+.textTag_Hml_4 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1713,29 +1711,21 @@ ul {
 
 .probttn_4 {
   box-sizing: border-box;
-
-  /* Auto layout */
-  
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-  
   position: absolute;
   width: 124px;
   height: 48px;
   left: 0px;
-  top: calc(22% - 48px/2);
-  
-  /* Primary/B400 */
-  
+  top: calc(22% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
 .button {
-  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
